@@ -1,0 +1,210 @@
+html {
+    font-size: 16px;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 100%;
+    height: 5.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+    box-shadow: 5px 10px 5px 10px #888888;
+}
+
+.company, .logo, .nav-box {
+    display: inline-flex;
+
+}
+
+.logo img{
+    width: 7rem;
+    height: 5.625rem;
+    max-height: 100%;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+
+.company-title {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 1.2rem;
+}
+
+
+.nav li {
+    display: inline;
+    padding: .5rem;
+}
+
+.nav li+li::before {
+    content: " > ";
+}
+
+.nav a {
+    text-decoration: underline;
+    color:black;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.25rem;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color:blue;
+    font-weight:500;
+}
+
+.banner {
+    display: flex;
+    background-image: url("https://blog-www.pods.com/wp-content/uploads/2019/04/MG_1_1_New_York_City-1.jpg");
+    background-position: center;
+    height: 20rem;
+    margin-top: 2rem;
+    align-items: center;
+    box-shadow: 5px 10px 5px 10px #888888;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+    margin:0;
+    padding: .8rem;
+}
+
+.content h4 {
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    margin:0;
+    padding: .8rem;
+}
+
+.wrapper-two {
+    display: flex;
+    align-items:center;
+    margin: 2.5rem 0;
+    height: 35rem;
+    justify-content: center;
+}
+
+
+
+.wrapper-two .text-box {
+    display: flex;
+    box-shadow: 5px 10px 5px 10px #888888;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 3rem;
+    width: 50%;
+    padding: 1.5rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    max-height: 100%;
+    justify-content: flex-start;
+}
+
+
+
+.image-panel {
+    display: flex;
+    max-height: 100%;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: 75%;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 100%;
+}
+
+.row {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.col img{
+    height: 50%;
+    width: 50%;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .65);
+}
+
+
+.row img {
+    width: 75%;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .65);
+}
+
+
+.team {
+    display: flex;
+    box-shadow: 5px 10px 5px 10px #888888;
+    text-align: center;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.teammates {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.1rem;
+}
+
+.teammate {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+}
+
+.teammate img {
+    width: 17rem;
+    height: 23rem;
+    box-shadow: 5px 10px 5px 10px #888888;
+}
+
+.teammate h3 {
+    margin-top: 2.4rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3rem;
+}
+
+.teammate h4 {
+    margin-top: 2.4rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2.25rem;
+}
+
+.contact {
+    margin: 2.5rem;
+    display: flex;
+    justify-content:center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contact-info h4{
+    text-align:center;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content:center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
